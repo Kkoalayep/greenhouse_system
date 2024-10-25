@@ -1,0 +1,213 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 93169,  , LIC=D0D7S-L3VGS-UHB8H-WQMDB-6VJYY-JG1VP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\93169\Desktop\fff\aaa123（3）(2)(1)(1)\aaa123（3）(2)\aaa123（3）\USER\DHT11.uvprojx
+Project File Date:  08/11/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'DHT11'
+compiling bh1750.c...
+compiling soil.c...
+compiling mqtt.c...
+compiling led.c...
+compiling BMP280.c...
+compiling sgp30.c...
+compiling myiic.c...
+compiling GetStr.c...
+GetStr.c(16): warning:  #1295-D: Deprecated declaration ReciveDtaThread - give arg types
+  void ReciveDtaThread();
+GetStr.c(43): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  	busyp=strstr((const char*)RxData4,(const char*)"busy p...");//是否包含帧头 这个字符串自行取一定关键字
+GetStr.c(52): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  	error1=strstr((const char*)RxData4,(const char*)"ERROR");//是否包含帧头 这个字符串自行取一定关键字
+GetStr.c(61): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  	wtd1=strstr((const char*)RxData4,(const char*)"wtd");//是否包含帧头 这个字符串自行取一定关键字
+GetStr.c(72): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  	strx=strstr((const char*)RxData4,(const char*)"+MQTTSUBRECV:0");//是否包含帧头 这个字符串自行取一定关键字
+GetStr.c(76): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"\"Te\":");
+GetStr.c(90): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"\"At\":");//返回OK
+GetStr.c(104): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"\"Co\":");//返回OK
+GetStr.c(118): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"\"Hu\":");//返回OK
+GetStr.c(132): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"\"Li\":");//返回OK
+GetStr.c(146): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"pf\":");//返回OK
+GetStr.c(158): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"tf\":");//返回OK
+GetStr.c(170): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"af\":");//返回OK
+GetStr.c(182): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"gf\":");//返回OK
+GetStr.c(198): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"yf\":");//返回OK
+GetStr.c(216): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"zdkz\":");//返回OK
+GetStr.c(231): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"ggf\":");//返回OK
+GetStr.c(247): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			strx=strstr((const char*)RxData4,(const char*)"{\"f\":");//返回OK
+GetStr.c(310): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(315): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(320): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(325): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(330): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(335): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(340): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(345): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(350): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(355): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(360): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(365): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(370): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(375): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(380): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(385): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(390): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(395): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(400): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(405): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(410): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(415): warning:  #111-D: statement is unreachable
+  		break;
+GetStr.c(416): warning:  #111-D: statement is unreachable
+  		default :{return 0x40;break;}
+GetStr.c(432): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	if(atol(MyTeData) > 30 )//half hour
+GetStr.c(449): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	if(x==1&&atol(MyTeData) <26 )
+GetStr.c(461): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	if(atol(MyLiData) > lux)
+GetStr.c(478): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	if(atol(MyLiData) < 120 &&lux >atol(MyLiData))
+GetStr.c(478): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	if(atol(MyLiData) < 120 &&lux >atol(MyLiData))
+GetStr.c(510): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	if(atol(MyHuData)<20)
+GetStr.c(613): warning:  #1-D: last line of file ends without a newline
+  }
+GetStr.c: 48 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling esp8266.c...
+compiling system_stm32f4xx.c...
+compiling bmpiic.c...
+compiling beep.c...
+compiling main.c...
+main.c(21): warning:  #1295-D: Deprecated declaration ReciveDtaThread - give arg types
+  void ReciveDtaThread();
+main.c(79): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		BMP_Pressure = BMP_Pressure_a * 0.001;
+main.c(64): warning:  #177-D: variable "t"  was declared but never referenced
+  	u8 t=0;	
+main.c: 3 warnings, 0 errors
+assembling startup_stm32f40_41xxx.s...
+compiling lcd.c...
+compiling timer.c...
+..\HARDWARE\TIMER\timer.c(170): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\TIMER\timer.c: 1 warning, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling misc.c...
+compiling SHT30.c...
+compiling usart.c...
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_dbgmcu.c...
+compiling stm32f4xx_cryp_tdes.c...
+compiling stm32f4xx_cryp_aes.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_cryp_des.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_cryp.c...
+compiling stm32f4xx_dma2d.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_hash_md5.c...
+compiling stm32f4xx_dcmi.c...
+compiling stm32f4xx_hash.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_hash_sha1.c...
+compiling stm32f4xx_flash_ramfunc.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_sai.c...
+compiling stm32f4xx_ltdc.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+linking...
+Program Size: Code=25624 RO-data=1660 RW-data=168 ZI-data=4984  
+FromELF: creating hex file...
+"..\OBJ\DHT11.axf" - 0 Error(s), 52 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_DHT11
+  C:\Users\93169\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>
